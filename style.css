@@ -1,0 +1,185 @@
+.nav{
+    height: 100px;
+    overflow: hidden;
+    
+}
+.logo{
+    height: 150%;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    margin-left: 5%;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.botones {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.regiones {
+    width: 100%;
+}
+
+.fila {
+    display: inline-grid;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.btn-light{
+    width: 90%;
+    margin-bottom: 20%;
+    font-family: serif;
+
+}
+
+.tabla {
+    width: 85%;
+}
+.datos-ditto {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+@media screen and (min-width: 700px) {
+    .datos-ditto {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .datos-ditto {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 33%;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .datos-ditto {
+        grid-template-columns: 1fr  ;
+        width: 50%;
+    }
+    .tabla{
+        display: flex;
+        justify-content: center;
+    }
+    .botones{
+        width: 20%;
+    }
+   
+}
+.pokemon {
+    
+}
+.btn .pokemon{
+
+}
+
+
+.img-pokemon {
+    height: 100%;
+}
+
+/* HTML:detalle JSCRIPT:ajax2*/
+:root {
+    --type-normal: #A8A878;
+    --type-fire: #F08030;
+    --type-water: #6890F0;
+    --type-grass: #78C850;
+    --type-electric: #F8D030;
+    --type-ice: #98D8D8;
+    --type-fighting: #C03028;
+    --type-poison: #A040A0;
+    --type-ground: #E0C068;
+    --type-flying: #A890F0;
+    --type-psychic: #F85888;
+    --type-bug: #A8B820;
+    --type-rock: #B8A038;
+    --type-ghost: #705898;
+    --type-dark: #705848;
+    --type-dragon: #7038F8;
+    --type-steel: #B8B8D0;
+    --type-fairy: #F0B6BC;
+}
+
+/* HTML:detalle JSCRIPT:ajax2*/
+body{
+    background-color: black !important;
+}
+.detalle {
+    width: 100%;
+    height: 120%;
+    background-color: black;
+    
+}
+
+.dpokemon {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.pokemon2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.pokemon-head {
+    display: block;
+    width: 70%;
+}
+
+.pokemon-id {
+    height: 20%;
+    position: fixed;
+    margin-left: 10%;
+    font-size: 60px;
+
+}
+
+.img-pokemon2 {
+    margin-left: 20%;
+    height: 85%;
+    
+}
+
+.pokemon-nombre {
+    height: 15%;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.pokemon-body {
+    display: block;
+    width: 30%;
+    margin-top: 100px;
+
+    
+}
+.pokemon-tipos{
+    display: flex;
+    justify-content: space-around;
+}
+.tipotipo{
+    background-color: white;
+    border-radius: 10px 10px;
+    width: 40%;
+    text-align: center;
+}
+.stat {}
